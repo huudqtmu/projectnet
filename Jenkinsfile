@@ -33,6 +33,5 @@ pipeline {
 			bat 'xcopy "%WORKSPACE% /E /Y /I "c:\\test1-netcore'
 		}
 	}
-		
   } // end stages
 }//end pipeline
