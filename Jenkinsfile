@@ -72,6 +72,6 @@ pipeline {
  	//    steps {
     //     	//bat 'start http://localhost:81'
     // 	}
-}
+	//}
   } // end stages
 }//end pipeline
