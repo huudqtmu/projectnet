@@ -42,7 +42,7 @@ pipeline {
 			bat 'xcopy "%WORKSPACE%\\publish" /E /Y /I /R "c:\\test1-netcore"'
 // /E: copy cả thư mục con, kể cả rỗng. /Y: không hỏi xác nhận ghi đè. ; /Q: yên lặng, không in tên file.; /R: ghi đè cả file chỉ đọc (nếu có).; I khong co folder thi tao moi
 
-	bat "iisreset /stop" // start iis sau khi ghi de file
+	bat 'iisreset /stop' // start iis sau khi ghi de file
 
 		}
 	}
