@@ -33,14 +33,6 @@ pipeline {
 			bat 'xcopy "%WORKSPACE% /E /Y /I "c:\\test1-netcore'
 		}
 	}
-	post {
-		success {
-			echo 'Successful!'
-		}
-		failure {
-			echo 'Have error when buil and run.'
-		}
-	}
-	
+		
   } // end stages
 }//end pipeline
