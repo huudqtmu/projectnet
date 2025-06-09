@@ -20,10 +20,12 @@ namespace gitnetcore.Controllers
 public IActionResult product()
         {
             return View();
-        }public IActionResult intro()
+        }
+        public IActionResult intro()
         {
             return View();
-        }public IActionResult new()
+        }
+        public IActionResult news()
         {
             return View();
         }
