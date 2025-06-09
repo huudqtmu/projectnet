@@ -17,7 +17,18 @@ namespace gitnetcore.Controllers
         {
             return View();
         }
-
+public IActionResult product()
+        {
+            return View();
+        }public IActionResult intro()
+        {
+            return View();
+        }public IActionResult new()
+        {
+            return View();
+        }
+        
+         
         public IActionResult Privacy()
         {
             return View();
