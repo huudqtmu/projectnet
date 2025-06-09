@@ -27,10 +27,10 @@ pipeline {
 			bat 'dotnet test --no-build --verbosity normal'
 		}
 	}
-	stage ('public den t thu muc)
+	stage ('public den t thu muc')
 	{
 		steps{
-			echo 'publish'
+			echo 'Publishing...'
 			bat 'dotnet publish -c Release -o ./publish'
 		}
 	}
