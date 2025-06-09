@@ -38,7 +38,7 @@ pipeline {
 	stage ('Publish') {
 		steps {
 			echo 'public 2 runnig folder'
-			bat 'xcopy "%WORKSPACE%/publish /E /Y /I "c:\\test1-netcore"'
+			bat 'xcopy "%WORKSPACE%\publish /E /Y /I "c:\\test1-netcore"'
 		}
 	}
   } // end stages
