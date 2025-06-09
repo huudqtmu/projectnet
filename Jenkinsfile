@@ -12,19 +12,19 @@ pipeline {
 		steps
 		{
 			echo 'Restore package'
-			sh 'dotnet restore'
+			bat 'dotnet restore'
 		}
 	}
 	stage ('build') {
 		steps {
 			echo 'build project netcore'
-			sh 'dotnet build  --configuration Release'
+			bat 'dotnet build  --configuration Release'
 		}
 	}
 	stage ('tests') {
 		steps{
 			echo 'running test...'
-			sh 'dotnet test --no-build --verbosity normal'
+			bat 'dotnet test --no-build --verbosity normal'
 		}
 	}
 	stage ('Publish') {
