@@ -38,11 +38,11 @@ pipeline {
 	stage ('Publish') {
 		steps {
 			echo 'public 2 runnig folder'
-		//iisreset /stop // stop iis de ghi de file 
+	iisreset /stop // stop iis de ghi de file 
 			bat 'xcopy "%WORKSPACE%\\publish" /E /Y /I /R "c:\\test1-netcore"'
-// /E: copy cả thư mục con, kể cả rỗng. /Y: không hỏi xác nhận ghi đè. ; /Q: yên lặng, không in tên file.; /R: ghi đè cả file chỉ đọc (nếu có).
+// /E: copy cả thư mục con, kể cả rỗng. /Y: không hỏi xác nhận ghi đè. ; /Q: yên lặng, không in tên file.; /R: ghi đè cả file chỉ đọc (nếu có).; I khong co folder thi tao moi
 
-	//iisreset /stop // start iis sau khi ghi de file
+	iisreset /stop // start iis sau khi ghi de file
 
 		}
 	}
@@ -62,7 +62,7 @@ pipeline {
 
 	stage('Open Website') {
  	   steps {
-        	bat 'start http://localhost:81'
+        	//bat 'start http://localhost:81'
     	}
 }
   } // end stages
