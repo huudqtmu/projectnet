@@ -27,10 +27,18 @@ pipeline {
 			bat 'dotnet test --no-build --verbosity normal'
 		}
 	}
+	stage ('public den t thu muc)
+	{
+		steps{
+			echo 'publish'
+			bat 'dotnet publish -c Release -o ./publish'
+		}
+	}
+//	dotnet publish -c Release -o ./publish
 	stage ('Publish') {
 		steps {
 			echo 'public 2 runnig folder'
-			bat 'xcopy "%WORKSPACE% /E /Y /I "c:\\test1-netcore'
+			bat 'xcopy "%WORKSPACE%/publish /E /Y /I "c:\\test1-netcore"'
 		}
 	}
   } // end stages
