@@ -54,5 +54,11 @@ pipeline {
                 '''
             }
         } // end deploy iis
+
+	stage('Open Website') {
+ 	   steps {
+        	bat 'start http://localhost:81'
+    	}
+}
   } // end stages
 }//end pipeline
