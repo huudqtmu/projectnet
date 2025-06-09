@@ -1,9 +1,6 @@
 pipeline {
  agent any
  
- enviroment {
-	DOTNET_CLI_HOME ="${WORKSPACE}"
- } 
  stages {
 	stage('clone'){
 		steps {
