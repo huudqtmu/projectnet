@@ -24,8 +24,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[d:/HuongDanNgoai_DayNgoai/CMC/BaiGiang/TrienKhaiPhanmem/Git/gitnetcore/gitnetcore/Views/Home/intro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxpbnRyby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/HuongDanNgoai_DayNgoai/CMC/BaiGiang/TrienKhaiPhanmem/Git/gitnetcore/gitnetcore/Views/Home/news.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxuZXdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [d:/HuongDanNgoai_DayNgoai/CMC/BaiGiang/TrienKhaiPhanmem/Git/gitnetcore/gitnetcore/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/HuongDanNgoai_DayNgoai/CMC/BaiGiang/TrienKhaiPhanmem/Git/gitnetcore/gitnetcore/Views/Home/product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxwcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [d:/HuongDanNgoai_DayNgoai/CMC/BaiGiang/TrienKhaiPhanmem/Git/gitnetcore/gitnetcore/Views/Shared/Error.cshtml]
