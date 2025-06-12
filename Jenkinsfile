@@ -44,7 +44,7 @@ pipeline {
 	stage ('Publish') {
 		steps {
 			echo 'public 2 runnig folder'
-			bat 'xcopy "%WORKSPACE%\\publish" /E /Y /I /R "c:\\test1-netcore"'
+			bat 'xcopy "%WORKSPACE%\\publish" /E /Y /I /R "c:\\test1-netcore2"'
 			// /E: copy cả thư mục con, kể cả rỗng. /Y: không hỏi xác nhận ghi đè. ; /Q: yên lặng, không in tên file.; /R: ghi đè cả file chỉ đọc (nếu có).; I khong co folder thi tao moi
 		}
 	}
