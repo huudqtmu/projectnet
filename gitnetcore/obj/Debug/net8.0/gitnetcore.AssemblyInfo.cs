@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gitnetcore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea70b1a8bdd30196c6bc8debfde9a66dd3cb2ebb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6ca1e86d8f4c503f7249e3e48655cd61981b99a")]
 [assembly: System.Reflection.AssemblyProductAttribute("gitnetcore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gitnetcore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
