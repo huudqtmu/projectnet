@@ -62,7 +62,7 @@ pipeline {
                 # Tạo website nếu chưa có
                 Import-Module WebAdministration
                 if (-not (Test-Path IIS:\\Sites\\MySite2)) {
-                    New-Website -Name "MySite" -Port 82 -PhysicalPath "c:\\test1-netcore2"
+                    New-Website -Name "MySite2" -Port 82 -PhysicalPath "c:\\test1-netcore2"
                 }
                 '''
             }
